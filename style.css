@@ -497,3 +497,36 @@ font-size:18px;
 .logo h2{
 font-size:24px;
 }
+
+@media (max-width:768px){
+
+nav{
+flex-direction:column;
+padding:15px;
+}
+
+nav ul{
+flex-direction:column;
+gap:10px;
+text-align:center;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+.cards,
+.client-grid,
+.tech-grid,
+.achievement-grid,
+.testimonial-grid,
+.choose-grid{
+grid-template-columns:1fr;
+display:grid;
+}
+
+.stats{
+flex-direction:column;
+gap:20px;
+}
+}
