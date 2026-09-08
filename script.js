@@ -20,3 +20,8 @@ function topFunction(){
 document.getElementById("themeBtn").addEventListener("click",()=>{
 document.body.classList.toggle("dark");
 });
+window.addEventListener("load",()=>{
+setTimeout(()=>{
+document.getElementById("loader").style.display="none";
+},1500);
+});
