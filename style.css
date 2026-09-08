@@ -218,3 +218,30 @@ setInterval(() => {
   font-weight:bold;
   color:#0b2a8f;
 }
+
+choose{
+padding:80px 20px;
+background:#f8f9ff;
+text-align:center;
+}
+
+.choose-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.choose-card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.choose-card:hover{
+transform:translateY(-10px);
+background:#0b2a8f;
+color:white;
+}
