@@ -307,3 +307,31 @@ transition:.3s;
 .insight-card:hover{
 transform:translateY(-8px);
 }
+
+.tech{
+padding:80px 20px;
+background:#f5f8ff;
+text-align:center;
+}
+
+.tech-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.tech-card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+font-weight:bold;
+transition:.3s;
+}
+
+.tech-card:hover{
+background:#0b2a8f;
+color:white;
+transform:translateY(-8px);
+}
