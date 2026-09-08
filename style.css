@@ -397,3 +397,22 @@ transform:translateY(-8px);
 margin-top:15px;
 color:#0b2a8f;
 }
+
+#topBtn{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#0b2a8f;
+color:white;
+border:none;
+width:50px;
+height:50px;
+border-radius:50%;
+font-size:24px;
+cursor:pointer;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+#topBtn:hover{
+background:#081f6b;
+}

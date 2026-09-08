@@ -10,3 +10,10 @@ setInterval(()=>{
 i=(i+1)%images.length;
 document.getElementById("slide").src=images[i];
 },3000);
+
+function topFunction(){
+  window.scrollTo({
+    top:0,
+    behavior:"smooth"
+  });
+}
