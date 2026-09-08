@@ -416,3 +416,30 @@ box-shadow:0 5px 15px rgba(0,0,0,.3);
 #topBtn:hover{
 background:#081f6b;
 }
+
+#themeBtn{
+position:fixed;
+top:20px;
+right:20px;
+background:white;
+border:none;
+width:45px;
+height:45px;
+border-radius:50%;
+cursor:pointer;
+font-size:20px;
+z-index:2000;
+}
+
+.dark{
+background:#111;
+color:white;
+}
+
+.dark .card,
+.dark .choose-card,
+.dark .testimonial-card,
+.dark .tech-card{
+background:#222;
+color:white;
+}
