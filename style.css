@@ -154,3 +154,34 @@ font-size:28px;
 footer p{
 margin:5px 0;
 }
+
+.founder{
+padding:80px 20px;
+text-align:center;
+background:#f5f8ff;
+}
+
+.founder img{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid #0b2a8f;
+margin-bottom:20px;
+}
+
+.founder h2{
+font-size:36px;
+color:#0b2a8f;
+}
+
+.founder h4{
+color:#666;
+margin:10px 0;
+}
+
+.founder p{
+max-width:600px;
+margin:auto;
+line-height:1.6;
+}
