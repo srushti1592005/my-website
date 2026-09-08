@@ -475,3 +475,25 @@ align-items:center;
 font-size:30px;
 z-index:9999;
 }
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo span{
+width:40px;
+height:40px;
+background:white;
+color:#081f6b;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-weight:bold;
+font-size:18px;
+}
+
+.logo h2{
+font-size:24px;
+}
