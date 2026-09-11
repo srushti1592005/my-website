@@ -200,12 +200,12 @@ background:#f5f8ff;
 }
 
 .founder img{
-width:180px;
-height:180px;
-border-radius:50%;
-object-fit:cover;
-border:5px solid #0b2a8f;
-margin-bottom:20px;
+    width: 260px;
+    height: 320px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
 }
 
 .founder h2{
